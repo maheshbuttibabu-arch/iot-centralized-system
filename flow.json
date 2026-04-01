@@ -1,0 +1,502 @@
+[
+    {
+        "id": "e3e7687908640fc9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e743b92fb048397a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ee7e439a262f87a0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "491b9b1eed7d3df9",
+        "type": "ui_group",
+        "name": "Light Control",
+        "tab": "e743b92fb048397a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc81c1f4998c3e42",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6e521d728361b835",
+        "type": "ui_group",
+        "name": "Test",
+        "tab": "e743b92fb048397a",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ef279da03d14a10",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5b8becea6bdd69ca",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "86f835f0796eac4c",
+        "type": "ui_group",
+        "name": "Light Control",
+        "tab": "e743b92fb048397a",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b77c2fb3c7cc2b9d",
+        "type": "ui_group",
+        "name": "Robot Control",
+        "tab": "e743b92fb048397a",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f29e483aab5495bc",
+        "type": "mqtt out",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5b8becea6bdd69ca",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f388ac4f1a0f7801",
+        "type": "ui_button",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "group": "86f835f0796eac4c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "home/light",
+        "topicType": "str",
+        "x": 680,
+        "y": 200,
+        "wires": [
+            [
+                "f29e483aab5495bc"
+            ]
+        ]
+    },
+    {
+        "id": "b42e51aae7e36787",
+        "type": "ui_button",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "group": "86f835f0796eac4c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button on",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "home/light",
+        "topicType": "str",
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "f29e483aab5495bc"
+            ]
+        ]
+    },
+    {
+        "id": "988f75245088b6ec",
+        "type": "mqtt in",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "topic": "home/light",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5b8becea6bdd69ca",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 700,
+        "y": 380,
+        "wires": [
+            [
+                "350a4718a85ddb41"
+            ]
+        ]
+    },
+    {
+        "id": "350a4718a85ddb41",
+        "type": "ui_text",
+        "z": "e3e7687908640fc9",
+        "group": "86f835f0796eac4c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "light status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 730,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "9a5545bba1714488",
+        "type": "ui_button",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "group": "b77c2fb3c7cc2b9d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "robot stop",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "STOP",
+        "payloadType": "str",
+        "topic": "robot/control",
+        "topicType": "str",
+        "x": 480,
+        "y": 440,
+        "wires": [
+            [
+                "f29e483aab5495bc"
+            ]
+        ]
+    },
+    {
+        "id": "ed5f6a4972c504f4",
+        "type": "ui_button",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "group": "b77c2fb3c7cc2b9d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "robot forward",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "FORWARD",
+        "payloadType": "str",
+        "topic": "robot/control",
+        "topicType": "str",
+        "x": 510,
+        "y": 500,
+        "wires": [
+            [
+                "f29e483aab5495bc"
+            ]
+        ]
+    },
+    {
+        "id": "5091ae7e3e44dac4",
+        "type": "ui_button",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "group": "b77c2fb3c7cc2b9d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "robot reverse",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "REVERSE",
+        "payloadType": "str",
+        "topic": "robot/control",
+        "topicType": "str",
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "f29e483aab5495bc"
+            ]
+        ]
+    },
+    {
+        "id": "9d40b0af9d959810",
+        "type": "mqtt in",
+        "z": "e3e7687908640fc9",
+        "name": "",
+        "topic": "robot/control",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5b8becea6bdd69ca",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 460,
+        "wires": [
+            [
+                "cc2ae16aac6e2cf8"
+            ]
+        ]
+    },
+    {
+        "id": "cc2ae16aac6e2cf8",
+        "type": "ui_text",
+        "z": "e3e7687908640fc9",
+        "group": "b77c2fb3c7cc2b9d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Robot Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 290,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4ca5b41535acbc83",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
